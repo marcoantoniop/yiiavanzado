@@ -40,6 +40,8 @@ AppAsset::register($this);
         ['label' => 'About', 'url' => ['/site/about']],
         ['label' => 'Contact', 'url' => ['/site/contact']],
         ['label' => 'Prueba', 'url' => ['/site/prueba']],
+        ['label' => 'Prueba2', 'url' => ['/site/prueba']],
+        ['label' => 'Prueba3', 'url' => ['/site/prueba']],
 
     ];
     if (Yii::$app->user->isGuest) {
